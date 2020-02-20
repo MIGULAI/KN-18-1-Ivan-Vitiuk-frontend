@@ -1,0 +1,26 @@
+body {
+    background-color: blanchedalmond;
+    color: black;
+}
+
+h1.logo{
+    text-align-last: center;
+    background-color: black;
+    color: white;
+}
+nav.site-nav{
+    list-style: upper-latin;
+}
+
+img.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    image-resolution: 72dpi;
+    width: 90%;
+    height: auto;
+}
+
+.footer-background{
+    background-color: blue;
+}
