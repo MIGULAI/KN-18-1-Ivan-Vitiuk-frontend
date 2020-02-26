@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Something</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="normalize.css">
+    <!--<link rel="stylesheet" href="index.css">-->
 </head>
 <body>
     <header>
@@ -15,25 +16,25 @@
         </div>
         <nav class="site-nav">
             <ul>
-                <li class="#news"><a href="">Updates and News</a></li>
-                <li class="#project-bar"><a href="#projects">Our Projects</a></li>
-                <li class="#contacts"><a href="">How to find us and our products</a></li>
+                <li class="news-but"><a href="#news">Updates and News</a></li>
+                <li class="project-but"><a href="#projects">Our Projects</a></li>
+                <li class="contacts-but"><a href="#contacts">How to find us and our products</a></li>
              </ul>
         </nav>  
     </header>
     
-    <main class="#news">
+    <main id ="news">
         <header>
             <div>
                 <div>
                     <h2>NEWS</h2>
                     <div>
-                        <input type="button" value="Clik"
+                        <input type="button" value="Clik"/>
                     </div>
                 </div>
             </div>
         </header>
-        <article id="#updates">
+        <article id="updates">
             <header>
                 <h2>Last News</h2>
             </header>
@@ -45,7 +46,7 @@
                 <small>2019.23.04</small>
             </footer>
         </article>
-        <article id="#goodday">
+        <article id ="projects">
             <header>
                 <p></p>
                 <h2>Здесь могла быть ваша реклама </h2>
@@ -59,10 +60,10 @@
             </footer>
         </article>
     </main>
-    <footer>
+    <footer id="contacts">
         <div class="footer-background">
             <div>
-                <div class="#name">
+                <div class="name">
                     <span>Something Soft.net</span>
                 </div>
                 <div class="media">
