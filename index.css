@@ -1,26 +1,63 @@
-body {
-    background-color: blanchedalmond;
-    color: black;
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-h1.logo{
+* {
+    letter-spacing: normal;
+    word-spacing: normal;
+    font-family: 'Open Sans', 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+    color: black;   }
+
+.main-logo{
+    background-color: black;    }
+
+.logo{
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    word-spacing: 0.1em;
     text-align-last: center;
     background-color: black;
-    color: white;
-}
-nav.site-nav{
-    list-style: upper-latin;
-}
+    color: white;   }
 
-img.img{
+.site-nav{
+    list-style: upper-latin;    }
+
+.news-but-li{
+    list-style-type: none;  }
+.news-but{
+    text-decoration: none;  }
+.project-but-li{
+    list-style-type: none;  }
+.project-but{
+    text-decoration: none;  }
+.contacts-but-li{
+    list-style-type: none;  }
+.contacts-but{
+    text-decoration: none;  }
+    
+.news-logo{
+    text-align: center;
+    background-color: blue; }
+
+article{
+    text-indent: 5%;    }
+
+.img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     image-resolution: 72dpi;
-    width: 90%;
-    height: auto;
+    width: 70%;
+    height: auto;   }
+
+#contacts{
+    background-color: blue; }
+
+.name{
+    height: 10%;
+    width: 50%;
 }
 
-.footer-background{
-    background-color: blue;
+.media{
+    height: 10%;
+    width: 50%;
 }
