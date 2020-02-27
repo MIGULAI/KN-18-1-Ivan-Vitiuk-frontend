@@ -19,9 +19,9 @@
     background-color: black;
     color: white;   }
 
-.site-nav{
-    list-style: upper-latin;    }
-
+.site-nav li{
+    display: inline;
+}
 .news-but-li{
     list-style-type: none;  }
 .news-but{
@@ -53,12 +53,27 @@ article{
 #contacts{
     background-color: blue; }
 
+.footer-content {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+}
+
 .name{
-    height: 10%;
+    display: inline-block;
     width: 50%;
 }
 
 .media{
-    height: 10%;
-    width: 50%;
+    display: inline-block;
+    width: 50%; }
+.media li{
+    list-style-type: none;
+}
+.media a{
+    float: right;
+}
+.media img{
+    width: 100px;
+    height: auto;
 }
