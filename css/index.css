@@ -7,11 +7,15 @@
     background-color: blanchedalmond;
     color: black;   }
 
+.main-header{
+    margin-top: 0px;   }
+
 .main-logo{
     margin-top: 0px;
     background-color: black;    }
 
 .logo{
+    font-size: xx-large;
     text-decoration: none;
     letter-spacing: 0.05em;
     word-spacing: 0.1em;
@@ -19,18 +23,21 @@
     background-color: black;
     color: white;   }
 
-.site-nav li{
+.site-nav{
     display: inline;
 }
-.news-but-li{
+.news-but-div{
+    display: inline;
     list-style-type: none;  }
 .news-but{
     text-decoration: none;  }
-.project-but-li{
+.project-but-div{
+    display: inline;
     list-style-type: none;  }
 .project-but{
     text-decoration: none;  }
-.contacts-but-li{
+.contacts-but-div{
+    display: inline;
     list-style-type: none;  }
 .contacts-but{
     text-decoration: none;  }
