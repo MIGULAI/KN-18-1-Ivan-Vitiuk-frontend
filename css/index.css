@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-* {
+body {
     letter-spacing: normal;
     word-spacing: normal;
     font-family: 'Open Sans', 'Times New Roman', Times, serif;
     background-color: blanchedalmond;
     color: black;   }
+
+a{
+    text-decoration: none;
+}
 
 .main-header{
     margin-top: 0px;   }
@@ -24,29 +28,26 @@
     color: white;   }
 
 .site-nav{
-    display: inline;
+    display: inline-block;
+    
 }
 .news-but-div{
+    width: 33%;
     display: inline;
     list-style-type: none;  }
-.news-but{
-    text-decoration: none;  }
 .project-but-div{
     display: inline;
     list-style-type: none;  }
-.project-but{
-    text-decoration: none;  }
 .contacts-but-div{
     display: inline;
     list-style-type: none;  }
-.contacts-but{
-    text-decoration: none;  }
-    
+
 .news-logo{
     text-align: center;
-    background-color: blue; }
+    color:  white;
+    background-color: black; }
 
-article{
+section{
     text-indent: 5%;    }
 
 .img{
