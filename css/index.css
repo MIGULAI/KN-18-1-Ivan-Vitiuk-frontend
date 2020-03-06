@@ -8,6 +8,7 @@ body {
     color: black;   }
 
 a{
+    display: block;
     text-decoration: none;
 }
 
@@ -27,20 +28,21 @@ a{
     background-color: black;
     color: white;   }
 
-.site-nav{
-    display: inline-block;
-    
+.nav-but-div{
+    display: block;
+    align-items: center; }
+
+.nav-but-con{
+    color: white;
+    background-color: black;
+    text-align: center;
+    display:  block;
 }
-.news-but-div{
-    width: 33%;
-    display: inline;
-    list-style-type: none;  }
-.project-but-div{
-    display: inline;
-    list-style-type: none;  }
-.contacts-but-div{
-    display: inline;
-    list-style-type: none;  }
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
 
 .news-logo{
     text-align: center;
@@ -50,6 +52,11 @@ a{
 section{
     text-indent: 5%;    }
 
+#updates{
+    display: block;
+    background-image: url(../img/back.jpg);
+    background-color: white;
+}
 .img{
     display: block;
     margin-left: auto;
@@ -85,3 +92,4 @@ section{
     width: 100px;
     height: auto;
 }
+
